@@ -10,8 +10,8 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav style={{marginLeft: 'auto'}}>
-              <Nav.Link href="/cart"><i className="fas fa-shopping-cart" aria-hidden="true"></i>Cart</Nav.Link>
-              <Nav.Link href="/login"><i className="fas fa-user" aria-hidden="true"></i>Login</Nav.Link>
+              <Nav.Link href="/cart"><i className="fas fa-shopping-cart" aria-hidden="true" style={{margin:'0px 5px 0px 5px'}}></i>Cart</Nav.Link>
+              <Nav.Link href="/login"><i className="fas fa-user" aria-hidden="true" style={{margin:'0px 5px 0px 5px'}}></i>Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
