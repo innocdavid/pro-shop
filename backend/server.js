@@ -1,6 +1,6 @@
-const products = require('./data/productsArray');
-const dotenv = require('dotenv');
-const express = require('express');
+import products from './data/productsArray.js';
+import dotenv from 'dotenv';
+import  express from 'express';
 
 
 dotenv.config()
