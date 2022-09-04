@@ -21,6 +21,7 @@
   "homepage": "https://github.com/innocdavid/proShop#readme",
   "dependencies": {
     "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
     "express": "^4.18.1"
   },
   "devDependencies": {
