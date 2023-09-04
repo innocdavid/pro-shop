@@ -12,12 +12,26 @@ import React from "react";
           </LinkContainer>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav style={{marginLeft: 'auto'}}>
+            <Nav style={{ marginLeft: 'auto' }}>
               <LinkContainer to='/cart'>
-                <Nav.Link ><i className="fas fa-shopping-cart" aria-hidden="true" style={{margin:'0px 5px 0px 5px'}}></i>Cart</Nav.Link>
+                <Nav.Link >
+                  <i 
+                    className="fas fa-shopping-cart" 
+                    aria-hidden="true" 
+                    style={{ margin:'0px 5px 0px 5px' }}>
+                  </i>
+                    Cart
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to='/login'>
-                <Nav.Link><i className="fas fa-user" aria-hidden="true" style={{margin:'0px 5px 0px 5px'}}></i>Login</Nav.Link>
+                <Nav.Link>
+                  <i 
+                    className="fas fa-user" 
+                    aria-hidden="true" 
+                    style={{ margin:'0px 5px 0px 5px' }}>
+                  </i>
+                    Login
+                </Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>
