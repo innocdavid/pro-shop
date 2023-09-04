@@ -6,9 +6,9 @@ import dotenv from 'dotenv';
 import  express from 'express';
 
 
-dotenv.config()
 const app = express();
 
+dotenv.config()
 connectDB();
 
 app.get('/', (req, res) => {
